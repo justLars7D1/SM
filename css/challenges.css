@@ -1,0 +1,210 @@
+/* | General Styling | */
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed');
+
+
+html, body {
+
+	height: 100%;
+
+}
+
+body {
+
+	padding: 0;
+	margin: 0;
+	font-family: 'Saira Semi Condensed', sans-serif;
+	overflow: hidden;
+
+}
+
+
+a {
+
+	text-decoration: none;
+
+}
+
+a:visited {
+
+	color: #9e9e9e;
+	text-decoration: none;
+
+}
+
+span {
+
+	text-decoration: none;
+
+}
+
+/* | Navbar | */
+#navbar span {
+
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 20px;
+
+}
+
+#navbar span:hover, #navbar a:hover {
+
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 20px;
+	color: white;
+	cursor: pointer;
+
+}
+
+
+#navbar {
+
+	position: fixed;
+	width: 100%;
+	background-color: #222222;
+	opacity: 0.85;
+	color: #9e9e9e;
+	padding: 15px 0px 15px 0px;
+
+}
+
+#navHome {
+
+	margin-left: 25px;
+	margin-right: 25px;
+	color: white;
+
+}
+
+#navChallenges {
+
+	margin-left: 25px;
+	margin-right: 25px;
+
+}
+
+#navProfile {
+
+	position: fixed;
+	left: 91%;
+
+}
+
+#navLogout {
+
+	position: fixed;
+	left: 95.5%;
+
+}
+
+/* | Progress Displayer (Right) | */
+
+#progressDisplay {
+
+	position: fixed;
+	top: 62px;
+	left: 80%;
+	height: 100%;
+	width: 20%;
+	background-color: #444444;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	color: #9e9e9e;
+
+}
+
+#challengeContainer {
+
+	margin-top: 20px;
+	height: 75%;
+	overflow-x: hidden;
+	overflow-y: auto;
+
+}
+
+#progressText {
+
+	position: relative;
+	left: 25%;
+	top: 20px;
+
+}
+
+#searchProgress {
+
+	position: relative;
+	top: 20px;
+	width: 100%;
+	height: 2.5vw;
+	border: 1px solid black;
+	border-left: 0px;
+	text-align: center;
+	font-size: 15px;
+
+}
+
+/* | Challenge Div [+ Content] in Progress | */
+
+.searchChallenge {
+
+	border: 1px solid black;
+	width: 81%;
+	height: 17%;
+	margin-top: 50px;
+	position: relative;
+	left: 10%;
+	background-color: grey;
+	color: black;
+
+}
+
+.challengeName {
+
+	position: relative;
+	left: 5%;
+	top: -10px;
+	color: orange;
+
+}
+
+.challengeCreator {
+
+	position: relative;
+	left: 5%;
+	top: -35px;
+
+}
+
+.challengeHr {
+
+	width: 90%;
+	position: relative;
+	top: -50px;
+
+}
+
+.challengeDesc {
+
+	position: relative;
+	left: 5%;
+	top: -62.5px;
+	width: 90%;
+
+}
+
+.challengeFollowers {
+
+	position: relative;
+	top: -27.5%;
+
+}
+
+.challengeFollowersDiv {
+
+	width: 40%;
+	height: 30%;
+	position: relative;
+	left: 52.5%;
+	top: -182.5px;	
+
+}
